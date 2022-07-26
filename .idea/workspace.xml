@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c99e248b-b2d5-4362-a0c8-5b18db67dc0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TelegramSend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WX20220719-131419.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/stop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/telegram/v1/dataVerification.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/telegram/v1/telgram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/mysql/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/redis/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/group.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/telegram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process/telegram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setting/setting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="2CStqDK55n5VccN2tacppuy0lWg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2760" y="434" key="#Go_Modules" timestamp="1658809094566">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2760" y="434" key="#Go_Modules/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809094566" />
+    <state x="2648" y="386" key="#Log_Highlighting_(ideolog)" timestamp="1658817676162">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2648" y="386" key="#Log_Highlighting_(ideolog)/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658817676162" />
+    <state x="2684" y="420" key="#Notifications" timestamp="1658809423833">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2684" y="420" key="#Notifications/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809423833" />
+    <state x="2698" y="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1658809344696">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2698" y="398" key="#com.intellij.fileTypes.FileTypeChooser/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809344696" />
+    <state x="2435" y="443" key="EnvironmentVariablesDialog" timestamp="1658809397415">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2435" y="443" key="EnvironmentVariablesDialog/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809397415" />
+    <state x="2041" y="219" key="SettingsEditor" timestamp="1658809398980">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2041" y="219" key="SettingsEditor/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809398980" />
+    <state x="2625" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1658817430133">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2625" y="213" width="670" height="676" key="search.everywhere.popup/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658817430133" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controller/telegram/v1/telgram.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
