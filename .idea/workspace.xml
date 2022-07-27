@@ -20,29 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99e248b-b2d5-4362-a0c8-5b18db67dc0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TelegramSend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX20220719-131419.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/stop.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/telegram/v1/dataVerification.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/telegram/v1/telgram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/mysql/mysql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/redis/redis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/error/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/group.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/telegram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/telegram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setting/setting.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/sqlite/sqlite.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MgHash.sock" beforeDir="false" afterPath="$PROJECT_DIR$/MgHash.sock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX20220719-131419.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/telegram/v1/telgram.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/telegram/v1/telgram.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mysql/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/mysql/mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/group.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/telegram.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/telegram.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +68,31 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/wangyi/TelegramSend" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TelegramSend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/wangyi/TelegramSend" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/wangyi/TelegramSend" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,29 +126,54 @@
       <screen x="1680" y="-111" width="2560" height="1415" />
     </state>
     <state x="2684" y="420" key="#Notifications/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809423833" />
-    <state x="2698" y="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1658809344696">
+    <state x="2698" y="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1658906847670">
       <screen x="1680" y="-111" width="2560" height="1415" />
     </state>
-    <state x="2698" y="398" key="#com.intellij.fileTypes.FileTypeChooser/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809344696" />
+    <state x="2698" y="398" key="#com.intellij.fileTypes.FileTypeChooser/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658906847670" />
     <state x="2435" y="443" key="EnvironmentVariablesDialog" timestamp="1658809397415">
       <screen x="1680" y="-111" width="2560" height="1415" />
     </state>
     <state x="2435" y="443" key="EnvironmentVariablesDialog/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809397415" />
+    <state width="2518" height="139" key="GridCell.Tab.0.bottom" timestamp="1658906989423">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="139" key="GridCell.Tab.0.bottom/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658906989423" />
+    <state width="2518" height="139" key="GridCell.Tab.0.center" timestamp="1658906989422">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="139" key="GridCell.Tab.0.center/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658906989422" />
+    <state width="2518" height="139" key="GridCell.Tab.0.left" timestamp="1658906989421">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="139" key="GridCell.Tab.0.left/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658906989421" />
+    <state width="2518" height="139" key="GridCell.Tab.0.right" timestamp="1658906989423">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="139" key="GridCell.Tab.0.right/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658906989423" />
     <state x="2041" y="219" key="SettingsEditor" timestamp="1658809398980">
       <screen x="1680" y="-111" width="2560" height="1415" />
     </state>
     <state x="2041" y="219" key="SettingsEditor/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658809398980" />
-    <state x="2625" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1658817430133">
+    <state x="2660" y="335" width="600" height="522" key="find.popup" timestamp="1658907303375">
       <screen x="1680" y="-111" width="2560" height="1415" />
     </state>
-    <state x="2625" y="213" width="670" height="676" key="search.everywhere.popup/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658817430133" />
+    <state x="2660" y="335" width="600" height="522" key="find.popup/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658907303375" />
+    <state x="2625" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1658915302271">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2625" y="213" width="670" height="676" key="search.everywhere.popup/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658906754346" />
+    <state x="2625" y="213" width="670" height="676" key="search.everywhere.popup/1680.-111.2560.1415/57.25.1623.1025@1680.-111.2560.1415" timestamp="1658915302271" />
+    <state x="2690" y="508" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1658908780557">
+      <screen x="1680" y="-111" width="2560" height="1415" />
+    </state>
+    <state x="2690" y="508" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1680.-111.2560.1415/56.25.1624.1025@1680.-111.2560.1415" timestamp="1658908780557" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/controller/telegram/v1/telgram.go</url>
-          <line>40</line>
+          <line>46</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

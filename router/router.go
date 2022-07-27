@@ -27,6 +27,7 @@ func Setup() *gin.Engine {
 	t := r.Group("/telegram/v1")
 	{
 		t.GET("setTelegram", v1.SetTelegram)
+		t.POST("setTelegram", v1.SetTelegram)
 		t.GET("setGroup", v1.GetGroup)
 	}
 

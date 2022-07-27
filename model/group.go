@@ -44,6 +44,9 @@ func (g *Group) Add(db *gorm.DB) bool {
 	}
 	g.Created = time.Now().Unix()
 	g.Updated = time.Now().Unix()
-	db.Save(&g)
+	if g.TypeGroup == "group" {
+		db.Save(&g)
+
+	}
 	return true
 }

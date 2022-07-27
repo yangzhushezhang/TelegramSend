@@ -9,6 +9,6 @@ package main
 
 import "github.com/wangyi/TelegramSend/cmd"
 
-func main()  {
+func main() {
 	cmd.Execute()
 }

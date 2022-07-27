@@ -11,8 +11,7 @@ import (
 	"fmt"
 	"github.com/spf13/cobra"
 	"github.com/wangyi/TelegramSend/common"
-	"github.com/wangyi/TelegramSend/dao/mysql"
-	"github.com/wangyi/TelegramSend/dao/redis"
+	"github.com/wangyi/TelegramSend/dao/sqlite"
 	"github.com/wangyi/TelegramSend/logger"
 	"github.com/wangyi/TelegramSend/process"
 	"github.com/wangyi/TelegramSend/router"
@@ -70,20 +69,28 @@ func run(cmd *cobra.Command, args []string) {
 	}
 	defer zap.L().Sync() //缓存日志追加到日志文件中
 	//链接数据库
-	if err := mysql.Init(); err != nil {
-		fmt.Println("mysql 链接失败,", err)
+	//if err := mysql.Init(); err != nil {
+	//	fmt.Println("mysql 链接失败,", err)
+	//	return
+	//}
+	//defer mysql.Close()
+
+	//链接sqlite
+	if err := sqlite.Init(); err != nil {
+		fmt.Println("sqlite数据链接失败", err)
 		return
 	}
-	defer mysql.Close()
+
+	defer sqlite.Close()
+
 	//redis 初始化
 	//4.初始化redis连接
-	if err := redis.Init(); err != nil {
-		fmt.Println("redis文件初始化失败：", err)
-		return
-	}
-	defer redis.Close()
-
-	go process.RobotMonitor(mysql.DB)
+	//if err := redis.Init(); err != nil {
+	//	fmt.Println("redis文件初始化失败：", err)
+	//	return
+	//}
+	//defer redis.Close()
+	go process.RobotMonitor(sqlite.DB)
 	router.Setup()
 }
 
